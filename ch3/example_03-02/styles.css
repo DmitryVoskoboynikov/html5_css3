@@ -31,7 +31,7 @@ body {
     transform: translate3d(200px, 0, 0);
     transition: transform .3s;
 }
-/*
+
 @media (min-width: 40rem) {
     .OffCanvas-Active .Left,
     .OffCanvas-Active .Middle {
@@ -39,7 +39,7 @@ body {
         transition: transform;
     }
 }
-*/
+
 .Left {
     height: 625px;
     background-color: #03A66A;

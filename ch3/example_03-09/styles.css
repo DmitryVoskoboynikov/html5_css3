@@ -17,7 +17,6 @@ html {
     background-color: indigo;
     display: flex;
     flex-direction: column;
-    flex: 1
 }
 
 .FlexItems {
@@ -61,6 +60,7 @@ html {
 @media (min-width: 30rem) {
     .FlexWrapper {
         flex-flow: row wrap;
+        flex: 1
     }
 
     .FlexContent {

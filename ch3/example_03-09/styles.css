@@ -27,11 +27,6 @@ html {
     padding: 1rem;
 }
 
-.FlexHeader {
-    background-color: #105B63;
-    order: 1;
-}
-
 .FlexContent {
     background-color: #FFFAD5;
     order: 2;
@@ -47,6 +42,14 @@ html {
     order: 4;
 }
 
+.FlexHeader {
+    background-color: #105B63;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
 .FlexFooter {
     background-color: #BD4932;
     min-height: 200px;
@@ -58,10 +61,6 @@ html {
 @media (min-width: 30rem) {
     .FlexWrapper {
         flex-flow: row wrap;
-    }
-
-    .FlexHeader {
-        width: 100%;
     }
 
     .FlexContent {

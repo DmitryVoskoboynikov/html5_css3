@@ -28,17 +28,17 @@ html {
 
 .FlexContent {
     background-color: #FFFAD5;
-    order: 2;
+    order: 1;
 }
 
 .FlexSideOne {
     background-color: #FFD34E;
-    order: 3;
+    order: 2;
 }
 
 .FlexSideTwo {
     background-color: #DB9E36;
-    order: 4;
+    order: 3;
 }
 
 .FlexHeader {

@@ -1,0 +1,8 @@
+.thing {
+    padding: 1rem;
+    background-color: violet;
+}
+
+.thing:empty {
+    display: none;
+}

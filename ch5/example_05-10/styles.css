@@ -31,6 +31,7 @@ body {
     html,
     body {
         max-width: 50.75rem;
+        font-size: 1.8vw;
     }
 }
 
@@ -38,6 +39,7 @@ body {
     html,
     body {
         max-width: 78.75rem;
+        font-size: 1.7vw;
     }
 }
 
@@ -66,11 +68,24 @@ h1 {
     margin: 1rem 0;
 }
 
-@media (max-width: 54.99rem) {
+
+@media (max-width: 44.99rem) {
     /*	Get me every two items and of them, only ones that are in the last two items */
     .Item:nth-child(2n+1):nth-last-child(-n+2),
         /* Now get me every one after that same collection too. */
     .Item:nth-child(2n+1):nth-last-child(-n+2) ~ .Item {
+        border-bottom: 0;
+    }
+}
+
+@media (min-width: 45rem) {
+    .Item {
+        width: 33.3333333333%;
+    }
+    /*	Get me every third item and of them, only ones that are in the last three items */
+    .Item:nth-child(3n+1):nth-last-child(-n+3),
+        /* Now get me every one after that same collection too. */
+    .Item:nth-child(3n+1):nth-last-child(-n+3) ~ .Item {
         border-bottom: 0;
     }
 }
